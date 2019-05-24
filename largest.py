@@ -1,7 +1,7 @@
-p,q,r=input.split()
+p,q,r=input().split()
 if(p>q and p>r):
   print(p)
-elif(q>p and q>r):
+elif(q>r):
   print(q)
  else:
   print(r):
