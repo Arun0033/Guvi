@@ -1,11 +1,7 @@
-a=int(input())
-b=int(input())
-c=int(input())
-if(a>b and a>c):
-  print(a)
-elif(b>a and b>c):
-  print(b)
-elif(c>a and c>b:
-  print(c)
-else:
-  print("all are equal")
+p,q,r=input.split()
+if(p>q and p>r):
+  print(p)
+elif(q>p and q>r):
+  print(q)
+ else:
+  print(r):
