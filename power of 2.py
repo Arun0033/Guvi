@@ -1,0 +1,11 @@
+n=int(input())
+tem=n
+z=0
+while(n!=1):
+  n=n//2
+  z=z+1
+x=2**z
+if(tem==x):
+  print("yes")
+else:
+  print("no")
