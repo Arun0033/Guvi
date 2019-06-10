@@ -1,5 +1,5 @@
-n = int(input())
-s = input().split()
-for i in range(0,len(s)):
-  print(int(a[i]),end = " ")
-  print(i)
+m=int(input())
+x=list(map(int,input().split()))
+for i in range(len(x)):
+    print(x[i],end=" ")
+    print(i)
